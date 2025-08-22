@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Sammenlign tall</h1>
+
+  <div class="row">
+    <button id="resetBtn" onclick="resetNums()">Reset numbers</button>
+  </div>
+
+  <div class="row wrap">
+    <span id="leftNum">-</span>
+    <input id="opInput" type="text" placeholder="&gt;, &lt; eller =" maxlength="1" />
+    <span id="rightNum">-</span>
+    <button id="submitBtn" onclick="submitAnswer()">Submit</button>
+  </div>
+
+  <div class="row">
+    Poeng: <span id="score">0</span>
+  </div>
+
+  <div id="feedback"></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

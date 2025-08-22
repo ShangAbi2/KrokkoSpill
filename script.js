@@ -4,7 +4,7 @@ let leftNum = 0;
 
     
     function rand1to10() {
-      return Math.floor(Math.random() * 10) + 1; // 1–10
+      return Math.floor(Math.random() * 10) + 1;
     }
 
     function visTall() {

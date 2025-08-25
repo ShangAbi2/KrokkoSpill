@@ -1,6 +1,6 @@
 let leftNum = 0;
-    let rightNum = 0;
-    let score = 0;
+let rightNum = 0;
+let score = 0;
 
     
     function rand1to10() {
